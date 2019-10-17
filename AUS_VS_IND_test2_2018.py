@@ -35,7 +35,7 @@ for parent in parents:
         ball_number = ball_number.get_attribute('innerHTML')
         
         
-        comment = parent.find_element_by_css_selector('p.cb-com-ln')
+        comment = parent.find_element_by_css_selector('p.cb-com-ln') 
         comment = comment.get_attribute('innerHTML')
                 
         #print(ball_number,' | ',date_time)
